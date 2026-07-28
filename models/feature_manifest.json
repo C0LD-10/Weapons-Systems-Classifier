@@ -1,0 +1,59 @@
+{
+  "log_numeric": [
+    "Unit_Cost_USD",
+    "Max_Range_m",
+    "Effective_Range_m",
+    "Weight_kg"
+  ],
+  "plain_numeric": [
+    "Age_Years",
+    "Barrel_Length_mm",
+    "Crew_Size",
+    "Length_mm",
+    "Magazine_Capacity_numeric",
+    "Max_Speed_kmh",
+    "Muzzle_Velocity_mps",
+    "Num_Operator_Nations",
+    "Rate_of_Fire_rpm",
+    "Warhead_Weight_kg",
+    "Year_Introduced"
+  ],
+  "binary": [
+    "Barrel_Length_mm_is_missing",
+    "Crew_Size_is_missing",
+    "Crew_Size_outlier_flag",
+    "Effective_Range_m_is_missing",
+    "Is_Belt_Fed",
+    "Is_Retired",
+    "Length_mm_is_missing",
+    "Magazine_Capacity_numeric_is_missing",
+    "Max_Range_m_is_missing",
+    "Max_Speed_kmh_is_missing",
+    "Muzzle_Velocity_mps_is_missing",
+    "Num_Operator_Nations_is_missing",
+    "Rate_of_Fire_rpm_is_missing",
+    "Unit_Cost_USD_is_missing",
+    "Warhead_Weight_kg_is_missing",
+    "Weight_kg_is_missing",
+    "Year_Introduced_is_missing"
+  ],
+  "low_card_categorical": [
+    "Action_Type",
+    "Caliber",
+    "NATO_Compatible",
+    "Generation",
+    "Theater_of_Operation",
+    "Export_Status",
+    "Combat_Proven",
+    "Propulsion_Type",
+    "Guidance_System",
+    "Communication_System",
+    "Operating_Environment",
+    "Protection_Level",
+    "Service_Status"
+  ],
+  "high_card_categorical": [
+    "Country_of_Origin",
+    "Manufacturer"
+  ]
+}
