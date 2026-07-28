@@ -1,0 +1,134 @@
+{
+  "selected_model": "baseline_logreg",
+  "selection_criterion": "f1_macro",
+  "cv_results": {
+    "baseline_logreg": {
+      "cv_scores": [
+        0.9985055942090505,
+        0.9985132626902703,
+        0.9992562751667907
+      ],
+      "cv_mean": 0.9987583773553705,
+      "cv_std": 0.0003520808376531681,
+      "fit_seconds_for_5fold": 1.8
+    },
+    "primary_random_forest": {
+      "cv_scores": [
+        0.9981012244602566,
+        0.9980981526861192,
+        0.9984954740308456
+      ],
+      "cv_mean": 0.9982316170590737,
+      "cv_std": 0.00018657926843305067,
+      "fit_seconds_for_5fold": 7.8
+    },
+    "challenger_hgb": {
+      "cv_scores": [
+        0.9969981510522594,
+        0.9962163009404311,
+        0.9988637820914612
+      ],
+      "cv_mean": 0.9973594113613838,
+      "cv_std": 0.0011106067019055967,
+      "fit_seconds_for_5fold": 69.3
+    }
+  },
+  "test_macro_f1": 0.9995031362825227,
+  "test_classification_report": {
+    "Air Defense": {
+      "precision": 1.0,
+      "recall": 0.9946236559139785,
+      "f1-score": 0.9973045822102425,
+      "support": 186.0
+    },
+    "Aircraft": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 190.0
+    },
+    "Anti-Tank": {
+      "precision": 0.994475138121547,
+      "recall": 1.0,
+      "f1-score": 0.997229916897507,
+      "support": 180.0
+    },
+    "Armored Vehicle": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 186.0
+    },
+    "Artillery": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 179.0
+    },
+    "Missile": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 180.0
+    },
+    "Naval": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 185.0
+    },
+    "Small Arm": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 184.0
+    },
+    "Special Systems": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 165.0
+    },
+    "Support Weapon": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 185.0
+    },
+    "UAS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 180.0
+    },
+    "accuracy": 0.9995,
+    "macro avg": {
+      "precision": 0.9994977398292316,
+      "recall": 0.9995112414467253,
+      "f1-score": 0.9995031362825227,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 0.9995027624309393,
+      "recall": 0.9995,
+      "f1-score": 0.9995000186663282,
+      "support": 2000.0
+    }
+  },
+  "train_rows": 8000,
+  "test_rows": 2000,
+  "n_classes": 11,
+  "class_labels": [
+    "Air Defense",
+    "Aircraft",
+    "Anti-Tank",
+    "Armored Vehicle",
+    "Artillery",
+    "Missile",
+    "Naval",
+    "Small Arm",
+    "Special Systems",
+    "Support Weapon",
+    "UAS"
+  ]
+}
